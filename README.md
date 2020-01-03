@@ -5,13 +5,13 @@ Spash is a Tool to export Gmail information based on custom filter to data analy
 ---
 **NOTE**
 
-You will need to host this on an web server, since Google Sign In API only works with an web server.
-I recommend starting an python simple http server:
+You will need to host this on a web server, since Google Sign In API only works with a web server.
+I recommend starting a python simple http server:
 `python -m http.server <port>`
 ---
 - Change the apiKey and clientId variables with your values.
-- On `displayInbox` function, change the filter variable the desired value
-- Access the server via bowser, ex: `localhost:8000/gmail-query.html`
+- On `displayInbox` function, change the filter variable to the desired value
+- Access the server via browser, ex: `localhost:8000/gmail-query.html`
 - Click authorize and select your gmail account.
 ## Git Repository
 Always do it:
